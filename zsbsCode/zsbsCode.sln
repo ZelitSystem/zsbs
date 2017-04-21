@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareClass", "SoftwareCl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassData", "ClassData", "{8013EFB1-6466-40C6-848A-8621D95B2228}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Logging\Logging.csproj", "{B53D2FEF-B928-451D-A908-43EE4C22CC4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,8 +25,15 @@ Global
 		{F40679AF-6FB2-44A6-A050-33A3385F46D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F40679AF-6FB2-44A6-A050-33A3385F46D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F40679AF-6FB2-44A6-A050-33A3385F46D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53D2FEF-B928-451D-A908-43EE4C22CC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53D2FEF-B928-451D-A908-43EE4C22CC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53D2FEF-B928-451D-A908-43EE4C22CC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53D2FEF-B928-451D-A908-43EE4C22CC4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B53D2FEF-B928-451D-A908-43EE4C22CC4D} = {8013EFB1-6466-40C6-848A-8621D95B2228}
 	EndGlobalSection
 EndGlobal
